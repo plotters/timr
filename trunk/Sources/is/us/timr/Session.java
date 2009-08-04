@@ -1,4 +1,4 @@
-package your.app;
+package is.us.timr;
 
 import er.extensions.appserver.ERXSession;
 

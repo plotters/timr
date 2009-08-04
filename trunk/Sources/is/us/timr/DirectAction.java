@@ -1,6 +1,6 @@
-package your.app;
+package is.us.timr;
 
-import your.app.components.Main;
+import is.us.timr.components.Main;
 
 import com.webobjects.appserver.*;
 
