@@ -1,5 +1,0 @@
-#summary One-sentence summary of this page.
-
-= Ideas =
-
-  * Auto connect to email client to ensure right Out of Office replies.
