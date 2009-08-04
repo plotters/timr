@@ -1,19 +1,22 @@
 package your.app;
 
-import com.webobjects.appserver.WOActionResults;
-import com.webobjects.appserver.WORequest;
+import your.app.components.Main;
+
+import com.webobjects.appserver.*;
 
 import er.extensions.appserver.ERXDirectAction;
 
-import your.app.components.Main;
+/**
+ * @author Hugi Thordarson
+ */
 
 public class DirectAction extends ERXDirectAction {
-	public DirectAction(WORequest request) {
-		super(request);
+	public DirectAction( WORequest request ) {
+		super( request );
 	}
 
 	@Override
 	public WOActionResults defaultAction() {
-		return pageWithName(Main.class.getName());
+		return pageWithName( Main.class.getName() );
 	}
 }
