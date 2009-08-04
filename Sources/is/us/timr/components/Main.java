@@ -1,4 +1,4 @@
-package your.app.components;
+package is.us.timr.components;
 
 import com.webobjects.appserver.WOContext;
 
