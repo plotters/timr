@@ -16,5 +16,6 @@
 	<classpathentry kind="con" path="WOFramework/USJars"/>
 	<classpathentry kind="con" path="WOFramework/USWebObjects"/>
 	<classpathentry kind="con" path="WOFramework/USJava"/>
+	<classpathentry kind="con" path="WOFramework/ERJavaMail"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
